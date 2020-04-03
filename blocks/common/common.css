@@ -1,0 +1,8 @@
+.logo {
+    background: url('/pic/logo.png') center/contain no-repeat;
+    padding: 40px;
+    margin-left: 10px;
+}
+.yellow {
+    color: #fbc407;
+}

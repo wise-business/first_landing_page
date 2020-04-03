@@ -1,0 +1,9 @@
+.text {
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    padding: 80px 90px 112px 90px;
+    border-left: 4px solid #262350;
+    border-right: 4px solid #262350;
+    box-sizing: border-box;
+    line-height: 24px;
+}
