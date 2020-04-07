@@ -1,5 +1,6 @@
 .line {
-    height: 5px;
+    height: 4px;
+    background-color: white;
     border-left: 2px solid #262350;
     border-right: 2px solid #262350;
 }

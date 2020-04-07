@@ -1,11 +1,19 @@
+.footer-left {
+    width: 35%;
+}
 .footer-left__h2{
-    font-family: 'Roboto Condensed', sans-serif;
     font-size: 30px;
     font-weight: 300;
 }
 .footer-left__paragraph {
     color: white;
     text-decoration: none;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto';
     font-size: 16px;
+    margin: 21px 0;
+    position: relative;
+}
+.footer-left__social-item {
+    padding: 17px;
+    margin-right: 6px;
 }

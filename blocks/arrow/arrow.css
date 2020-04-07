@@ -1,0 +1,11 @@
+.arrow-up {
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 5px;
+    right: 25px;
+    background-color: #262350 ;
+    /* background: #262350 url('../../pic/arrow-up.png') center/contain no-repeat; */
+    cursor: pointer;
+}

@@ -1,0 +1,65 @@
+.world-part {
+    padding: 15px 30px;
+    box-sizing: border-box;
+    width: 33.3333333333%;
+    text-align: center;
+}
+.world-part:nth-child(3n+1) {
+    border-top: 4px solid #262350;
+    border-left: 4px solid #262350;
+}
+.world-part:nth-child(3n+2) {
+    border-top: 4px solid #262350;
+    border-left: 4px solid #262350;
+}
+.world-part:nth-child(3n+3) {
+    border-top: 4px solid #262350;
+    border-left: 4px solid #262350;
+    border-right: 4px solid #262350;
+}
+.world-part__pic {
+    background: center/contain no-repeat;
+    padding: 70px;
+    margin-bottom: 15px;
+}
+.world-part__pic_russia {
+    background-image: url('../../pic/moscow.png');
+}
+.world-part__pic_europe {
+    background-image: url('../../pic/big-ben.png');
+}
+.world-part__pic_africa {
+    background-image: url('../../pic/pyramids.png');
+}
+.world-part__pic_north-america {
+    background-image: url('../../pic/north-america.png');
+}
+.world-part__pic_south-america {
+    background-image: url('../../pic/south-america.png');
+}
+.world-part__pic_australia {
+    background-image: url('../../pic/kangaroo.png');
+}
+.world-part__h3 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 35px;
+}
+.world-part__h3::before {
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 3.5px;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(179, 255, 0);
+}
+.world-part_paragraph {
+    font-family: 'Sans';
+    font-weight: 200;
+    font-size: 19px;
+    line-height: 24px;
+    color: rgb(22, 20, 20);
+}

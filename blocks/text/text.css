@@ -1,9 +1,19 @@
-.text {
-    font-family: 'Comfortaa', cursive;
+.text_h2 {
+    line-height: 85px;
+    text-align: center;
+}
+.text__block {
+    font-family: 'Comforta';
     font-size: 16px;
     padding: 80px 90px 112px 90px;
     border-left: 4px solid #262350;
     border-right: 4px solid #262350;
     box-sizing: border-box;
     line-height: 24px;
+}
+.text__p {
+    margin-bottom: 40px;
+}
+.text__p:nth-last-child(1) {
+    margin: 0;
 }

@@ -1,16 +1,25 @@
 const gulp = require('gulp');
 const concat = require('gulp-concat');
-let cssFiles = [
+const cssFiles = [
     './blocks/normalize/*.css',
-    './blocks/common/*.css',
+    './blocks/fonts/*.css',
     './blocks/wrapper/*.css',
     './blocks/header/*.css',
     './blocks/line/*.css',
     './blocks/picture/*.css',
     './blocks/h1/*.css',
+    './blocks/h2/*.css',
     './blocks/text/*.css',
+    './blocks/social/*.css',
+    './blocks/world/*.css',
+    './blocks/world-part/*.css',
+    './blocks/h3/*.css',
     './blocks/footer/*.css',
-    './blocks/footer-left/*.css'
+    './blocks/footer-left/*.css',
+    './blocks/footer-center/*.css',
+    './blocks/footer-right/*.css',
+    './blocks/common/*.css',
+    './blocks/arrow/*.css'
 ];
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
@@ -23,7 +32,7 @@ function styles () {
             overrideBrowserslist: ['>0.1%'],
             cascade: false
         }))
-        .pipe(cleanCSS({level: 2}))
+        .pipe(cleanCSS({level: 0}))
         .pipe( gulp.dest('./build/style') );
 }
 

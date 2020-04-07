@@ -1,4 +1,49 @@
 .picture {
     height: 1060px;
     background: url('/pic/main.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 85px;
+    position: relative;
+}
+.picture__btn {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'Forum';
+    height: 50px;
+    width: 250px;
+    background-color: #262350;
+    text-align: center;
+    line-height: 50px;
+    border: 0.7px solid whitesmoke;
+    border-top: none;
+    cursor: pointer;
+    position: relative;
+}
+.picture__btn:before {
+    content: "";
+    position: absolute;
+    background-color: rgb(179, 255, 0);
+    width: 2px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: 300ms all;
+}.picture__btn:hover:before {
+    left: 100%;
+    transform: rotate(180deg);
+}
+.picture__social {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.picture__social-item {
+    border: 0.7px solid  #262350;
+    padding: 22px;
+    margin-right: 6px;
+    box-sizing: border-box;
 }

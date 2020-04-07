@@ -1,0 +1,18 @@
+.social {
+    display: flex;
+}
+.social__v {
+    background: url('../../pic/vk.png') center/contain no-repeat;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.social__f {
+    background: url('../../pic/facebook.png') center/contain no-repeat;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.social__i {
+    background: url('../../pic/instagram.png')center/contain no-repeat;
+    cursor: pointer;
+    border-radius: 2px;
+}

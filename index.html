@@ -1,56 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
     <head>
         <meta charset="UTF-8">
-        <link href="https://fonts.googleapis.com/css?family=Comfortaa:500|Philosopher|Roboto+Condensed&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./build/style/style.css">
         <title>Первая работа</title>
     </head>
-    <body>
+    <body id="body">
         <div class="wrapper">
-            <header class="header">
-                <a href="#" class="header__link logo"></a>
-                <a href="#" class="header__link">Главная</a>
-                <a href="#" class="header__link">О нас</a>
-                <a href="#" class="header__link">Контакты</a>
-            </header>
-            <div class="line"></div>
-            <div class="picture"></div>
-            <h1 class="h1">Путешествуй красиво! Блог в фотографиях</h1>
-            <div class="text">
-                <p>
-                    Представьте себе все лучшее, что есть в России: широкие просторы, разнообразная природа, щедрая душа, 
-                    девушки особой красоты, баня в конце концов. Добавьте к этому все то, чем так привлекательна Москва: гастрономические
-                    рестораны, безудержные вечеринки, звезды ТВ и инстаграмма вокруг. Взболтайте, но не смешивайте и получите 
-                    Розу Хутор 2017 – правильный баланс здорового лайфстайла и роскоши.
-                </p>
-                <p>
-                    Красная поляна также радует своей доступностью: перелет занимает 2,5 часа, иметь визу необходимости нет, 
-                    заказать такси можно через привычное приложение за 1400 руб., а время в пути от аэропорта до отеля 
-                    составляет менее часа! Ну, где еще такое есть? При этом местная инфраструктура не просто ничуть 
-                    не уступает Альпам, но и даже предвосхищает ожидания: здесь вкуснее, уютнее и веселее. 
-                    Я уже не говорю об удивительном контрасте температур – наверху зима, а внизу лето!
-                </p>
-                <p>
-                    Более того, несмотря на весну за окном, успеть все это оценить лично совсем не поздно – рекордное количество 
-                    снега обещает продлить сезон на весь апрель, а курорт тем временем предлагает на этот период очень 
-                    привлекательные цены!
-                </p>
-                <p>
-                    В общем, какое бы время вы ни выбрали, Роза Хутор удивит и подарит желание говорить о России с восторгом!
-                </p>
-            </div>
+            <header class="header">  
+                <nav class="header__nav">
+                    <a href="#" class="header__logo logo"></a>
+                    <a href="#" class="header__link link">Главная</a>
+                    <a href="#" class="header__link link">О нас</a>
+                    <a href="#" class="header__link link">Контакты</a>
+                </nav>
+                <div class="line"></div>
+            </header> 
+            <main>
+                <section class="picture">
+                    <h1 class="h1">Только красивые путешествия</h1>
+                    <a href="#" class="picture__btn">присоединяйся</a>
+                    <div class="picture__social social">
+                        <a href="#" class="social__v picture__social-item"></a>
+                        <a href="#" class="social__f picture__social-item"></a>
+                        <a href="#" class="social__i picture__social-item"></a>
+                    </div>
+                </section>
+                <section class="text">
+                    <h2 class="text_h2 h2">Путешествуй красиво! Блог в фотографиях</h2>
+                    <div class="text__block">
+                        <p class="text__p">
+                            Представьте себе все лучшее, что есть в России: широкие просторы, разнообразная природа, щедрая душа, 
+                            девушки особой красоты, баня в конце концов. Добавьте к этому все то, чем так привлекательна Москва: гастрономические
+                            рестораны, безудержные вечеринки, звезды ТВ и инстаграмма вокруг. Взболтайте, но не смешивайте и получите 
+                            Розу Хутор 2017 – правильный баланс здорового лайфстайла и роскоши.
+                        </p>
+                        <p class="text__p">
+                            Красная поляна также радует своей доступностью: перелет занимает 2,5 часа, иметь визу необходимости нет, 
+                            заказать такси можно через привычное приложение за 1400 руб., а время в пути от аэропорта до отеля 
+                            составляет менее часа! Ну, где еще такое есть? При этом местная инфраструктура не просто ничуть 
+                            не уступает Альпам, но и даже предвосхищает ожидания: здесь вкуснее, уютнее и веселее. 
+                            Я уже не говорю об удивительном контрасте температур – наверху зима, а внизу лето!
+                        </p>
+                        <p class="text__p">
+                            Более того, несмотря на весну за окном, успеть все это оценить лично совсем не поздно – рекордное количество 
+                            снега обещает продлить сезон на весь апрель, а курорт тем временем предлагает на этот период очень 
+                            привлекательные цены!
+                        </p>
+                        <p class="text__p">
+                            В общем, какое бы время вы ни выбрали, Роза Хутор удивит и подарит желание говорить о России с восторгом!
+                        </p>
+                    </div>
+                </section>
+                <section class="world">
+                    <div class="world-part">
+                        <div class="world-part__pic world-part__pic_russia"></div>
+                        <h3 class="world-part__h3 h3">ПУТИШЕСТВИЯ ПО РОССИИ</h3>
+                        <p class="world-part_paragraph">
+                            Самые интересные уголки России. Самые необычные маршруты.
+                        </p>
+                    </div>
+                    <div class="world-part">
+                        <div class="world-part__pic world-part__pic_europe"></div>
+                        <h3 class="world-part__h3 h3">ПУТИШЕСТВИЯ ПО ЕВРОПЕ</h3>
+                        <p class="world-part_paragraph">
+                            Разные страны,разные культуры,исторические места и все самое интересное в современной Европе!
+                        </p>
+                    </div>
+                    <div class="world-part">
+                        <div class="world-part__pic world-part__pic_africa"></div>
+                        <h3 class="world-part__h3 h3">ПУТИШЕСТВИЯ ПО АФРИКЕ</h3>
+                        <p class="world-part_paragraph">
+                            Дикая природа,крокодилы,обезьяны,сафари на джипах,гостиницы на деревьях исамые опасные приключения ждут тебя!
+                        </p>
+                    </div>
+                    <div class="world-part">
+                        <div class="world-part__pic world-part__pic_north-america"></div>
+                        <h3 class="world-part__h3 h3">ПУТИШЕСТВИЯ ПО СЕВЕРНОЙ АМЕРИКЕ</h3>
+                        <p class="world-part_paragraph">
+                            Конечно,мы проедем через час всю америку и побываем как в главных туристических местах, так и в уголках,где почти не ступала нога человека.
+                        </p>
+                    </div>
+                    <div class="world-part">
+                        <div class="world-part__pic world-part__pic_south-america"></div>
+                        <h3 class="world-part__h3 h3">ПУТИШЕСТВИЯ ПО ЮЖНОЙ АМЕРИКЕ</h3>
+                        <p class="world-part_paragraph">
+                            Южная Америка-место,где хочеться побывать каждый.Богатые районы и заброшенные фавелы,опастности и приключения, темпераментные люди и многое другое на страницах наших путешествий.
+                        </p>
+                    </div>
+                    <div class="world-part">
+                        <div class="world-part__pic world-part__pic_australia"></div>
+                        <h3 class="world-part__h3 h3">ПУТИШЕСТВИЯ ПО АВСТРАЛИИ</h3>
+                        <p class="world-part_paragraph">
+                            Мы побываем на отдельном континенте. Почему то думая об Австралии,сразу представляешь кенгуру,хотя это совершенно не символ страны.
+                        </p>
+                    </div>
+                </section>
+            </main>
             <footer class="footer">
                 <div class="footer-left">
-                    <h2 class="footer-left__h2 yellow">Мы рядом с вами</h2>
+                    <h2 class="h2 yellow">Мы рядом с вами:</h2>
                     <p class="footer-left__paragraph yellow">Москва ул.Комсомола д.12 оф.134</p>
                     <p class="footer-left__paragraph">Тел: 8(495)626-46-00</p>
                     <p class="footer-left__paragraph">E-mail 
-                        <a href="mailto:somebody@mail.ru" class="footer-left__paragraph">travel@mytravel.ru</a>
+                        <a href="mailto:somebody@mail.ru" class="footer-left__paragraph link">travel@mytravel.ru</a>
                     </p>
                     <p class="footer-left__paragraph">Часы работы: Пн-Пт, 10<sup>00</sup>-18<sup>00</sup></p>
+                    <div class="footer-left__social social">
+                        <div class="footer-left__social-item social__v"></div>
+                        <div class="footer-left__social-item social__f"></div>
+                        <div class="footer-left__social-item social__i"></div>
+                    </div>
+                </div>
+                <div class="footer-center logo"></div>
+                <div class="footer-right">
+                    <a href="#" class="footer-right__link link">Путешествия по Росии</a>
+                    <a href="#" class="footer-right__link link">Путешествия по Европе</a>
+                    <a href="#" class="footer-right__link link">Путешествия по Африке</a>
+                    <a href="#" class="footer-right__link link">Путешествия по Северной Америке</a>
+                    <a href="#" class="footer-right__link link">Путешествия по Южной Америке</a>
+                    <a href="#" class="footer-right__link link">Путешествия по Австралии</a>
                 </div>
             </footer>
         </div>
+        <a href="#body" class="arrow-up"></a>
     </body>
 </html>

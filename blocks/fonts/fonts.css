@@ -1,0 +1,16 @@
+@font-face {
+    src: url('../../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf');
+    font-family: 'Comforta';
+}
+@font-face {
+    src: url('../../fonts/Forum/Forum-Regular.ttf');
+    font-family: 'Forum';
+}
+@font-face {
+    src: url('../../fonts/PT_Sans_Narrow/PTSansNarrow-Regular.ttf');
+    font-family: 'Sans';
+}
+@font-face {
+    src: url('../../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf');
+    font-family: 'Roboto';
+}
