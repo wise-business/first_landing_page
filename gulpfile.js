@@ -14,12 +14,17 @@ const cssFiles = [
     './blocks/world/*.css',
     './blocks/world-part/*.css',
     './blocks/h3/*.css',
+    './blocks/questions-block/*.css',
+    './blocks/questions/*.css',
     './blocks/footer/*.css',
     './blocks/footer-left/*.css',
     './blocks/footer-center/*.css',
     './blocks/footer-right/*.css',
     './blocks/common/*.css',
     './blocks/arrow/*.css'
+];
+const jsFiles = [
+    './blocks/questions/*.js'
 ];
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
@@ -38,7 +43,10 @@ function styles () {
 
 function scripts() {
 
+    return gulp.src(jsFiles)
+        .pipe(concat('script.js'))
+        .pipe(gulp.dest('./build/js'));
 }
 
 gulp.task('styles', styles);
-gulp.task('scripts', scripts);
+gulp.task('js', scripts);

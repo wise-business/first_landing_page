@@ -1,5 +1,5 @@
 .logo {
-    background: url('/pic/logo.png') center/contain no-repeat;
+    background: url('../../pic/logo.png') center/contain no-repeat;
 }
 .yellow {
     color: #fbc407;
